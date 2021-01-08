@@ -1,7 +1,7 @@
 .content {
     margin-top: 100px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 350px);
+    grid-template-columns: repeat(auto-fit, 400px);
     justify-content: space-evenly;
     column-gap: 30px;
     row-gap: 30px;
@@ -13,13 +13,6 @@
     display: grid;
     align-content: flex-start;
     align-items: flex-end;
-}
-
-@media (min-width: 1100px) {
-   .country10 {
-        grid-column: 2;
-        justify-self: end;
-    } 
 }
 
 .country-name {
